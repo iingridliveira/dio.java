@@ -45,4 +45,28 @@ public class SmartTv {
         canal = novoCanal;
     
       }
+      public void opçõesCanais(){
+        switch(canal){
+          case 1:
+          System.out.println("O canal agora é a:GLOBO");
+          break;
+          case 2:
+          System.out.println("O canal agora é a: RECORD");
+          break;
+          case 3:
+          System.out.println("O canal agora é a:BAND");
+          break;
+          case 4:
+          System.out.println("O canal agora é o: SBT");
+          break;
+          case 5:
+          System.out.println("O canal agora é a: TVcultura");
+          break;
+          default: 
+          System.out.println("Canal invalido!");
+          break;
+
+        }
+
+      }
 }
