@@ -8,5 +8,6 @@ public class Usuario {
         smartTv.estadoTv();
         smartTv.maudarEstadotvligado();
         smartTv.estadoTv();
+        smartTv.maudarEstadotvdesligado();
     }
 }
